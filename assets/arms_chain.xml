@@ -34,7 +34,7 @@
                                                 <geom mesh="forearm_linkR" class="MPL_arm_dark"/>
 
                                                 <!-- RIGHT HAND -->
-                                                <include file="./../../MPL_sim/assets/simpleHandR_chain.xml"/>
+                                                <include file="simpleHandR_chain.xml"/>
 
                                             </body>
                                         </body>
@@ -60,7 +60,7 @@
                                                 <geom mesh="forearm_linkL" class="MPL_arm_dark"/>
 
                                                 <!-- LEFT HAND -->
-                                                <include file="./../../MPL_sim/assets/simpleHandL_chain.xml"/>
+                                                <include file="simpleHandL_chain.xml"/>
 
                                             </body>
                                         </body>

@@ -19,15 +19,6 @@ for the specific language governing permissions and limitations under the Licens
 
 <mujocoinclude>
 
-    <default>
-        <default class="MPL_hand">
-            <geom condim="6" contype="2" conaffinity="1"  rgba=".9 .9 .9 1" type="mesh" material="matmetal"/>
-            <site type="sphere" size="0.005" group="0"/>
-            <joint damping="6" limited="true"/>
-            <position kp="10" ctrllimited="true"/>
-        </default>
-    </default>
-
     <asset>
         <mesh file="meshes/mplR/wrist_rot_link-cvx.stl" name="wrist_rot_linkR"/>
         <mesh file="meshes/mplR/wrist_dev_link-cvx.stl" name="wrist_dev_linkR"/>
