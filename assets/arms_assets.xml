@@ -1,6 +1,6 @@
 <mujocoinclude>
 
-    <compiler angle="radian" meshdir="./../" texturedir='../scenes/' />
+    <compiler angle="radian" meshdir="./../" texturedir='../scenes/'/>
     <size nconmax="1000" njmax="5000"/>
     <option timestep="0.002"/>
 
@@ -11,6 +11,12 @@
             <position kp="100" ctrllimited="true"/>
             <default class="MPL_arm_dark">
                 <geom rgba=".1 .13 .13 1"/>
+            </default>
+            <default class="MPL_hand">
+                <geom condim="6" contype="2" conaffinity="1" rgba=".9 .9 .9 1" type="mesh" material="matmetal"/>
+                <site type="sphere" size="0.005" group="0"/>
+                <joint damping="6" limited="true"/>
+                <position kp="10" ctrllimited="true"/>
             </default>
         </default>
     </default>
