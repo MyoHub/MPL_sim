@@ -27,7 +27,7 @@ for the specific language governing permissions and limitations under the Licens
     <include file='../assets/simpleHandL_assets.xml'/>
 
     <worldbody>
-        <include file='../assets/arms_chain.xml'/> <!-- hands are configures here -->
+        <include file='../assets/arms_chain.xml'/> <!-- hands are configured here -->
     </worldbody>
 
 </mujoco>
